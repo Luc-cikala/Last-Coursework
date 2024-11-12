@@ -13,4 +13,6 @@ public abstract class Car {
         this.price = price;
         this.fuelConsumption = fuelConsumption;
     }
+    public abstract String displaySpecifications();
+    public abstract double calculateImportTax();
 }
