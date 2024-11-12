@@ -7,5 +7,11 @@ public class Main {
         SUV suv1 = new SUV("Honda", "CR-V", 2023, 32000.00, 8.5, 5);
         Truck truck1 = new Truck("Ford", "F-150", 2021, 35000.00, 12.0, 3.5);
 
+        List<Car> carInventory = new ArrayList<>();
+        carInventory.add(sedan1);
+        carInventory.add(suv1);
+        carInventory.add(truck1);
+
+        CarInventory.displayCarInventory(carInventory);
     }
 }
