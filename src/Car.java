@@ -15,4 +15,24 @@ public abstract class Car {
     }
     public abstract String displaySpecifications();
     public abstract double calculateImportTax();
+
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getFuelConsumption() {
+        return fuelConsumption;
+    }
 }
